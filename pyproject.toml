@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mqtt-chat"
+version = "0.1.0"
+description = ""
+authors = ["Rick Anderson <rick.rickanderson@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mqtt_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.2"
+paho-mqtt = "^1.6.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
